@@ -43,6 +43,17 @@ After that Add following to SimpleClassTest
 ==========================================================================
 !define TEST_SYSTEM {slim}
 
+!path E:\workspace\Skills421\examples\SimpleExample\target\classes
+
+| com.skills421.examples.fitnesse.Calculator |
+| Value1 | Operator | Value2 | calculate? |
+| 3.0 | + | 5.0 | 8.0 |
+| 2.0 | * | 3.5 | 7.0 |
+
+
+
+!define TEST_SYSTEM {slim}
+
 !path "Specify the path of your class" e.g. C:\wspace\test\target\classes
 
 !path "Specify path of any jar " e.g. D:\\selenium-standalone-3.7.1.jar for selenium 
